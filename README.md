@@ -1,6 +1,10 @@
 # SAE4K
 Structured Argument Extraction for Korean
 
+## Reference
+- W. I. Cho, W. H. kang, and N. S. Kim, "Structured argument extraction of Korean question and command," arXiv:1810.04631, 2018.
+- https://arxiv.org/abs/1810.04631
+
 ## Corpus Description
 ### Questions - [Question-Argument] pairs w/ question type label
 - Yes/no (label 0): 2,196 (45.95%)
