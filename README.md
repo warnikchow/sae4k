@@ -2,7 +2,7 @@
 Structured Argument Extraction for Korean
 
 ## Reference
-- W. I. Cho, W. H. Kang, and N. S. Kim, "Structured argument extraction of Korean question and command," arXiv:1810.04631, 2018 (https://arxiv.org/abs/1810.04631).
+- W. I. Cho, W. H. Kang, and N. S. Kim, "Structured argument extraction of Korean question and command," arXiv:1810.04631, 2018 https://arxiv.org/abs/1810.04631
 
 ## Corpus Description
 ### Questions - [Question-Argument] pairs w/ question type label
