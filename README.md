@@ -4,6 +4,15 @@ Structured Argument Extraction for Korean
 ## Reference
 - W. I. Cho, W. H. Kang, and N. S. Kim, "Structured argument extraction of Korean question and command," arXiv:1810.04631, Oct. 2018. [[paper]](https://arxiv.org/abs/1810.04631)
 
+```
+@article{cho2018structured,
+  title={Structured Argument Extraction of Korean Question and Command},
+  author={Cho, Won Ik and Kang, Woo Hyun and Kim, Nam Soo},
+  journal={arXiv preprint arXiv:1810.04631},
+  year={2018}
+}
+```
+
 ## Corpus Description
 ### Questions - [Question-Argument] pairs w/ question type label
 - Yes/no (label 0): 2,196 (45.95%)
