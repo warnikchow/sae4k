@@ -12,21 +12,21 @@ In Korean, and possibly for many other languages, not all the words (or particle
 
 ## Corpus Description
 ### Questions - [Question-Argument] pairs w/ question type label
-- Yes/no (label 0): 2,196 (45.95%)
-- Alternative (label 1): 212 (4.43%)
-- Wh- (label 2): 2,371 (49.61%)
+- Yes/no (label 0): 5,718 (31.99%)
+- Alternative (label 1): 227 (1.27%)
+- Wh- (label 2): 11,924 (66.73%)
 ### Commands - [Command-Argument] pairs w/ positivity label
-- Prohibition (label 0): 412 (8.61%)
-- Requirement (label 1): 4,268 (89.28%)
-- Strong requirement (label 2): 100 (2.09%)
+- Prohibition (label 3): 477 (3.67%)
+- Requirement (label 4): 12,369 (95.38%)
+- Strong requirement (label 5): 122 (0.94%)
 
 ## Reference
-- W. I. Cho, W. H. Kang, and N. S. Kim, "Structured argument extraction of Korean question and command," arXiv:1810.04631, Oct. 2018. [[paper]](https://arxiv.org/abs/1810.04631)
+- W. I. Cho, Y. K. Moon, W. H. Kang, and N. S. Kim, "Structured argument extraction of Korean question and command," arXiv:1810.04631, Oct. 2018. [[paper]](https://arxiv.org/abs/1810.04631)
 
 ```
 @article{cho2018structured,
   title={Structured Argument Extraction of Korean Question and Command},
-  author={Cho, Won Ik and Kang, Woo Hyun and Kim, Nam Soo},
+  author={Cho, Won Ik and Moon, Young Ki and Kang, Woo Hyun and Kim, Nam Soo},
   journal={arXiv preprint arXiv:1810.04631},
   year={2018}
 }
