@@ -1,6 +1,9 @@
 # SAE4K
 Structured Argument Extraction for Korean
 
+### Scheme at a glance<br/>
+<image src="https://github.com/warnikchow/sae4k/blob/master/fig1.PNG" width="500"><br/>
+
 ## Summary
 ### This is an annotation guideline for the Korean questions and commands that are possibly non-canonical and highly conversation-style.
 For the questions, the effective question set is obtained, and for the commands, the to-do-list is extracted; we call these **arguments**. The extraction process is not rule-based and fully manual for the corpus generation. The concept is slightly difference from slot-filling since the utterances are non-domain-specific and some contain inappropriate terms for the conventional dialog managers. We aim extracting the arguments from those utterances in a structured format.
