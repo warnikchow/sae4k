@@ -18,7 +18,7 @@ In Korean, and possibly for many other languages, not all the words (or particle
 - Yes/no (label 0): 5,718 (31.99%)
 - Alternative (label 1): 227 (1.27%)
 - Wh- (label 2): 11,924 (66.73%)
-### Commands - [Command-Argument] pairs w/ positivity label
+### Commands - [Command-Argument] pairs w/ negativeness label
 - Prohibition (label 3): 477 (3.67%)
 - Requirement (label 4): 12,369 (95.38%)
 - Strong requirement (label 5): 122 (0.94%)
