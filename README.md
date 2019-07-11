@@ -28,7 +28,7 @@ In Korean, and possibly for many other languages, not all the words (or particle
 
 ```
 @article{cho2018structured,
-  title={Structured Argument Extraction of Korean Question and Command},
+  title={Extracting Arguments from Korean Question and Command: An Annotated Corpus for Structured Paraphrasing},
   author={Cho, Won Ik and Moon, Young Ki and Kang, Woo Hyun and Kim, Nam Soo},
   journal={arXiv preprint arXiv:1810.04631},
   year={2018}
