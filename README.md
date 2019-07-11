@@ -24,7 +24,7 @@ In Korean, and possibly for many other languages, not all the words (or particle
 - Strong requirement (label 5): 122 (0.94%)
 
 ## Reference
-- W. I. Cho, Y. K. Moon, W. H. Kang, and N. S. Kim, "Structured argument extraction of Korean question and command," arXiv:1810.04631, Oct. 2018. [[paper]](https://arxiv.org/abs/1810.04631)
+- W. I. Cho, Y. K. Moon, W. H. Kang, and N. S. Kim, "Extracting Arguments from Korean Question and Command: An Annotated Corpus for Structured Paraphrasing," arXiv:1810.04631, Oct. 2018. [[paper]](https://arxiv.org/abs/1810.04631)
 
 ```
 @article{cho2018structured,
