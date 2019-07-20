@@ -27,7 +27,7 @@ In Korean, and possibly for many other languages, not all the words (or particle
 - W. I. Cho, Y. K. Moon, W. H. Kang, and N. S. Kim, "Extracting arguments from Korean question and command: An annotated corpus for structured paraphrasing," arXiv:1810.04631, Oct. 2018. [[paper]](https://arxiv.org/abs/1810.04631)
 
 ```
-@article{cho2018structured,
+@article{cho2018extracting,
   title={Extracting Arguments from Korean Question and Command: An Annotated Corpus for Structured Paraphrasing},
   author={Cho, Won Ik and Moon, Young Ki and Kang, Woo Hyun and Kim, Nam Soo},
   journal={arXiv preprint arXiv:1810.04631},
