@@ -12,8 +12,9 @@ For instance, for two questions "When will rain stop" and "When are you going va
 ### The extraction process omits the components that are not necessary for the content.
 In Korean, and possibly for many other languages, not all the words (or particles) in the sentence may be necessary for the extraction of the arguments. For such non-canonical directive utterances, words or particles that are not appropriate to be included in the argument, are removed considering the semantics. This might convert a noisy input utterance into the format that let dialogue managers label the semantic roles more easily.
 #### An additional dataset construction and the computational approach is in progress; will be disclosed with a paper.
+#### (19.10.10) Augmented dataset revealed! (more balanced, and still labeled)
 
-## Corpus Description
+## Original Corpus Description (sae4k_v1.txt)
 ### Questions - [Question-Argument] pairs w/ question type label
 - Yes/no (label 0): 5,718 (31.99%)
 - Alternative (label 1): 227 (1.27%)
@@ -22,6 +23,15 @@ In Korean, and possibly for many other languages, not all the words (or particle
 - Prohibition (label 3): 477 (3.67%)
 - Requirement (label 4): 12,369 (95.38%)
 - Strong requirement (label 5): 122 (0.94%)
+
+## Augmented Corpus (sae4k_v2.txt)
+- Alternative Q: +4,000
+- Wh- Q: +8,000
+- Prohibition: +4,000
+- Strong requirement: +4,000
+### Total 50,837 utterances!
+- Little modification on *sae4k_v1.txt*
+- Labels are in the first column, second for the sentence and third for the keyphrases.
 
 ## Citation
 - W. I. Cho, Y. K. Moon, W. H. Kang, and N. S. Kim, "Extracting arguments from Korean question and command: An annotated corpus for structured paraphrasing," arXiv:1810.04631, Oct. 2018. [[paper]](https://arxiv.org/abs/1810.04631)
