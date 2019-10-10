@@ -14,7 +14,7 @@ In Korean, and possibly for many other languages, not all the words (or particle
 #### An additional dataset construction and the computational approach is in progress; will be disclosed with a paper.
 #### (19.10.10) Augmented dataset revealed! (more balanced, and still labeled)
 
-## Original Corpus Description (sae4k_v1.txt)
+## Original Corpus: [sae4k_v1.txt](https://github.com/warnikchow/sae4k/blob/master/sae4k_v1.txt)
 ### Questions - [Question-Argument] pairs w/ question type label
 - Yes/no (label 0): 5,718 (31.99%)
 - Alternative (label 1): 227 (1.27%)
@@ -24,7 +24,7 @@ In Korean, and possibly for many other languages, not all the words (or particle
 - Requirement (label 4): 12,369 (95.38%)
 - Strong requirement (label 5): 122 (0.94%)
 
-## Augmented Corpus (sae4k_v2.txt)
+## Augmented Corpus: [sae4k_v2.txt](https://github.com/warnikchow/sae4k/blob/master/sae4k_v2.txt)
 - Alternative Q: +4,000
 - Wh- Q: +8,000
 - Prohibition: +4,000
