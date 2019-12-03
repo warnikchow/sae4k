@@ -38,8 +38,8 @@ In Korean, and possibly for many other languages, not all the words (or particle
 
 <image src="https://github.com/warnikchow/sae4k/blob/master/fig2.png" width="850"><br/>
   
-### Todo: (1) Coping with OOVs (challenging for KR as always), (2) obtaining larger dataset (always required!), and (3) utilizing pretrained language models (that can compensate our shortage of data) 
-### After all, **Typological approach** << Always open for (multi-lingual) collaborations!! >>
+#### Todo: (1) Coping with OOVs (challenging for KR as always), (2) obtaining larger dataset (always required!), and (3) utilizing pretrained language models (that can compensate our shortage of data) 
+### After all, *Typological approaches*!! (Always open for (multi-lingual) collaborations!!)
 
 ## Citation
 ### For the annotation guideline, please cite the following:
