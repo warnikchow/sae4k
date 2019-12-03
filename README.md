@@ -37,7 +37,7 @@ In Korean, and possibly for many other languages, not all the words (or particle
 ### Transformer-based training may provide you the followings (not sure RNN can do something...)
 <image src="https://github.com/warnikchow/sae4k/blob/master/fig2.png" width="850"><br/>
   
-## Todo: (1) Coping with OOVs (challenging for KR as always), (2) obtaining larger dataset (always required!), and (3) utilizing pretrained language models (that can compensate our shortage of data) 
+#### Todo: (1) Coping with OOVs (challenging for KR as always), (2) obtaining larger dataset (always required!), and (3) utilizing pretrained language models (that can compensate our shortage of data) 
 ### After all, **Typological approach** << Always open for (multi-lingual) collaborations!! >>
 
 ## Citation
