@@ -34,10 +34,11 @@ In Korean, and possibly for many other languages, not all the words (or particle
 - Labels are in the first column; second is for the sentences and third for the keyphrases.
 
 ## Implementation
-### Transformer-based training may provide you the followings (not sure yet if RNN will do with it...)
-<image src="https://github.com/warnikchow/sae4k/blob/master/fig2.png" width="700"><br/>
+### Transformer-based training may provide you the followings (not sure RNN can do something...)
+<image src="https://github.com/warnikchow/sae4k/blob/master/fig2.png" width="850"><br/>
   
-### Todo: Coping with OOVs (challenging for KR as always), larger data (always required!), and utilizing pretrained language models (that can compensate our shortage of data) 
+### Todo: Coping with OOVs (challenging for KR as always), obtaining larger dataset (always required!), and utilizing pretrained language models (that can compensate our shortage of data) 
+#### After all, **Typological approach** << Always open for (multi-lingual) collaborations >>
 
 ## Citation
 ### For the annotation guideline, please cite the following:
