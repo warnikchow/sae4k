@@ -33,8 +33,14 @@ In Korean, and possibly for many other languages, not all the words (or particle
 - Little modification on *sae4k_v1.txt*
 - Labels are in the first column; second is for the sentences and third for the keyphrases.
 
+## Implementation
+### Transformer-based training may provide you the followings (not sure yet if RNN will do with it...)
+<image src="https://github.com/warnikchow/sae4k/blob/master/fig2.png" width="700"><br/>
+  
+### Todo: Coping with OOVs (challenging for KR as always), larger data (always required!), and utilizing pretrained language models (that can compensate our shortage of data) 
+
 ## Citation
-- W. I. Cho, Y. K. Moon, W. H. Kang, and N. S. Kim, "Extracting arguments from Korean question and command: An annotated corpus for structured paraphrasing," arXiv:1810.04631, Oct. 2018. [[paper]](https://arxiv.org/abs/1810.04631)
+### For the annotation guideline, please cite the following:
 
 ```
 @article{cho2018extracting,
@@ -42,5 +48,16 @@ In Korean, and possibly for many other languages, not all the words (or particle
   author={Cho, Won Ik and Moon, Young Ki and Kang, Woo Hyun and Kim, Nam Soo},
   journal={arXiv preprint arXiv:1810.04631},
   year={2018}
+}
+```
+
+### For adopting the whole dataset, or seq2seq-based settings for intent argument extraction:
+
+```
+@article{cho2018extracting,
+  title={Machines Getting with the Program: Understanding Intent Arguments of Non-Canonical Directives},
+  author={Cho, Won Ik and Moon, Young Ki and Moon, Sangwhan and Kim, Seok Min and Kim, Nam Soo},
+  journal={arXiv preprint arXiv:1912.00342},
+  year={2019}
 }
 ```
