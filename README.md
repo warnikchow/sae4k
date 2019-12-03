@@ -56,7 +56,7 @@ In Korean, and possibly for many other languages, not all the words (or particle
 ### For adopting the whole dataset, or seq2seq-based settings for intent argument extraction:
 
 ```
-@article{cho2018extracting,
+@article{cho2019machines,
   title={Machines Getting with the Program: Understanding Intent Arguments of Non-Canonical Directives},
   author={Cho, Won Ik and Moon, Young Ki and Moon, Sangwhan and Kim, Seok Min and Kim, Nam Soo},
   journal={arXiv preprint arXiv:1912.00342},
