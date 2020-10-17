@@ -46,9 +46,9 @@ In Korean, and possibly for many other languages, not all the words (or particle
   
 ### Todo: 
 
-- (1) Coping with OOVs (challenging for KR as always)
-- (2) obtaining larger dataset (always required!)
-- (3) utilizing pretrained language models (that can compensate our shortage of data) 
+- Coping with OOVs (challenging for KR as always)
+- Obtaining larger dataset (always required!) - In progress
+- Utilizing pretrained language models (that can compensate our shortage of data) - Mayber Korean BART or GPT2?
 
 ### After all, *Typological approaches*!! (Always open for (multi-lingual) collaborations!!)
 
