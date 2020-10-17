@@ -2,9 +2,9 @@
 
 <image src="https://github.com/warnikchow/sae4k/blob/master/image/fig_xxxyy.png" width="800"><br/>
 
-### Scheme at a glance<br/>
+### Scheme at a glance (click for the higher resolution!) <br/>
   
-<image src="https://github.com/warnikchow/sae4k/blob/master/image/fig1.PNG" width="800"><br/>
+<image src="https://github.com/warnikchow/sae4k/blob/master/image/fig1.PNG" width="350"><br/>
 
 #### (20.10.17) [Our paper](https://arxiv.org/abs/1912.00342) accepted at EMNLP 2020 Findings! License was added. Model and code are to be published after cleansing :) 
 #### (19.10.10) Augmented dataset revealed! (more balanced, and still labeled) The augmentation follows [this paper](https://www.aclweb.org/anthology/2020.lrec-1.842/)
