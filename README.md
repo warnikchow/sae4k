@@ -1,5 +1,4 @@
-# sae4K
-### Structured Argument Extraction for Korean
+# sae4K: Structured Argument Extraction for Korean
 
 <image src="https://github.com/warnikchow/sae4k/blob/master/image/fig_xxxyy.png" width="800"><br/>
 
