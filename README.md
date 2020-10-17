@@ -1,8 +1,8 @@
-# SAE4K
+# sae4K
 Structured Argument Extraction for Korean
 
 ### Scheme at a glance<br/>
-<image src="https://github.com/warnikchow/sae4k/blob/master/fig1.PNG" width="500"><br/>
+<image src="https://github.com/warnikchow/sae4k/blob/master/image/fig1.PNG" width="400"><br/>
 
 ## Summary
 ### This is an annotation guideline for the Korean questions and commands that are possibly non-canonical and highly conversation-style.
@@ -13,8 +13,9 @@ For instance, for two questions "When will rain stop" and "When are you going va
 In Korean, and possibly for many other languages, not all the words (or particles) in the sentence may be necessary for the extraction of the arguments. For such non-canonical directive utterances, words or particles that are not appropriate to be included in the argument, are removed considering the semantics. This might convert a noisy input utterance into the format that let dialogue managers label the semantic roles more easily.
 #### An additional dataset construction and the computational approach is in progress; will be disclosed with a paper.
 #### (19.10.10) Augmented dataset revealed! (more balanced, and still labeled)
+#### (20.10.17) [Our paper](https://arxiv.org/abs/1912.00342) accepted at EMNLP 2020 Findings! License was added. Model and code are to be published after cleansing :) 
 
-## [sae4k_v1.txt](https://github.com/warnikchow/sae4k/blob/master/sae4k_v1.txt): Original Corpus
+## [sae4k_v1.txt](https://github.com/warnikchow/sae4k/blob/master/data/sae4k_v1.txt): Original Corpus
 ### Questions - [Question-Argument] pairs w/ question type label
 - Yes/no (label 0): 5,718 (31.99%)
 - Alternative (label 1): 227 (1.27%)
@@ -24,7 +25,7 @@ In Korean, and possibly for many other languages, not all the words (or particle
 - Requirement (label 4): 12,369 (95.38%)
 - Strong requirement (label 5): 122 (0.94%)
 
-## [sae4k_v2.txt](https://github.com/warnikchow/sae4k/blob/master/sae4k_v2.txt): Augmented Corpus
+## [sae4k_v2.txt](https://github.com/warnikchow/sae4k/blob/master/data/sae4k_v2.txt): Augmented Corpus
 - Alternative Q: +4,000
 - Wh- Q: +8,000
 - Prohibition: +4,000
@@ -36,7 +37,7 @@ In Korean, and possibly for many other languages, not all the words (or particle
 ## Implementation
 ### Transformer-based training may provide you the followings (not sure RNN can do something...)
 
-<image src="https://github.com/warnikchow/sae4k/blob/master/fig2.png" width="850"><br/>
+<image src="https://github.com/warnikchow/sae4k/blob/master/image/fig2.png" width="750"><br/>
   
 #### Todo: (1) Coping with OOVs (challenging for KR as always), (2) obtaining larger dataset (always required!), and (3) utilizing pretrained language models (that can compensate our shortage of data) 
 ### After all, *Typological approaches*!! (Always open for (multi-lingual) collaborations!!)
