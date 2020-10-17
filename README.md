@@ -15,7 +15,7 @@ For instance, for two questions "When will rain stop" and "When are you going va
 ### The extraction process omits the components that are not necessary for the content.
 In Korean, and possibly for many other languages, not all the words (or particles) in the sentence may be necessary for the extraction of the arguments. For such non-canonical directive utterances, words or particles that are not appropriate to be included in the argument, are removed considering the semantics. This might convert a noisy input utterance into the format that let dialogue managers label the semantic roles more easily.
 #### An additional dataset construction and the computational approach is in progress; will be disclosed with a paper.
-#### (19.10.10) Augmented dataset revealed! (more balanced, and still labeled)
+#### (19.10.10) Augmented dataset revealed! (more balanced, and still labeled) The augmentation follows [this paper](https://www.aclweb.org/anthology/2020.lrec-1.842/)
 #### (20.10.17) [Our paper](https://arxiv.org/abs/1912.00342) accepted at EMNLP 2020 Findings! License was added. Model and code are to be published after cleansing :) 
 
 ## [sae4k_v1.txt](https://github.com/warnikchow/sae4k/blob/master/data/sae4k_v1.txt): Original Corpus
@@ -40,12 +40,16 @@ In Korean, and possibly for many other languages, not all the words (or particle
 ## Implementation
 ### Transformer-based training may provide you the followings (not sure RNN can do something...)
 
-
 <image src="https://github.com/warnikchow/sae4k/blob/master/image/fig2_2.png" width="800"><br/>
 
 <image src="https://github.com/warnikchow/sae4k/blob/master/image/fig2_.png" width="1000"><br/>
   
-#### Todo: (1) Coping with OOVs (challenging for KR as always), (2) obtaining larger dataset (always required!), and (3) utilizing pretrained language models (that can compensate our shortage of data) 
+### Todo: 
+
+- (1) Coping with OOVs (challenging for KR as always)
+- (2) obtaining larger dataset (always required!)
+- (3) utilizing pretrained language models (that can compensate our shortage of data) 
+
 ### After all, *Typological approaches*!! (Always open for (multi-lingual) collaborations!!)
 
 ## Citation
@@ -60,7 +64,7 @@ In Korean, and possibly for many other languages, not all the words (or particle
 }
 ```
 
-### For adopting the whole dataset, or seq2seq-based settings for intent argument extraction:
+### If you have found our dataset or seq2seq-based settings useful:
 
 ```
 @article{cho2019machines,
