@@ -46,9 +46,9 @@ In Korean, and possibly for many other languages, not all the words (or particle
   
 ### Todo: 
 
-- Coping with OOVs (challenging for KR as always)
-- Obtaining larger dataset (always required!) - In progress
-- Utilizing pretrained language models (that can compensate our shortage of data) - Mayber Korean BART or GPT2?
+- Handling OOVs (challenging for Korean as always)
+- Obtaining larger dataset (always required!) - In progress with [StyleKQC](https://github.com/cynthia/stylekqc)
+- Utilizing pretrained language models (that can compensate our shortage of data)
 
 ### After all, *Typological approaches*!! (Always open for (multi-lingual) collaborations!!)
 
@@ -67,10 +67,11 @@ In Korean, and possibly for many other languages, not all the words (or particle
 ### If you have found our dataset or seq2seq-based settings useful:
 
 ```
-@article{cho2019machines,
+@inproceedings{cho2020machines,
   title={Machines Getting with the Program: Understanding Intent Arguments of Non-Canonical Directives},
-  author={Cho, Won Ik and Moon, Young Ki and Moon, Sangwhan and Kim, Seok Min and Kim, Nam Soo},
-  journal={arXiv preprint arXiv:1912.00342},
-  year={2019}
+  author={Cho, Won Ik and Moon, Youngki and Moon, Sangwhan and Kim, Seok Min and Kim, Nam Soo},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2020},
+  pages={329--339},
+  year={2020}
 }
 ```
